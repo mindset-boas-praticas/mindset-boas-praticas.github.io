@@ -90,7 +90,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+disqus: "mindset-boas-praticas"
 
 # Fill in your Google Analytics ID to track your website using GA
 #google_analytics: ""
@@ -115,7 +115,7 @@ title-separator: "-"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
-permalink: /:year-:month-:day-:title/
+permalink: /:title
 paginate: 5
 
 kramdown:
