@@ -1,0 +1,14 @@
+<div class="post-categories">
+{% if post.content %}
+  {% assign words = post.content | number_of_words %}
+{% else %}
+  {% assign words = content | number_of_words %}
+{% endif %}
+
+{% if words < 360 %}
+    {% assign minutesText = 'Tempo de Leitura: 1 min' %}
+{% else %}
+    {% assign minutesText = words | divided_by:180 | prepend: 'Tempo de Leitura: ' | append: ' min' %}
+{% endif %}
+{{ minutesText }}
+</div>
