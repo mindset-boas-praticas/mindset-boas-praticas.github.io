@@ -6,6 +6,7 @@
   <title>{% if page.use-site-title %}{{ site.title }} {{ site.title-separator }} {{ site.description }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
   <meta name="author" content="{{ site.author.name }}" />
+  <meta name="theme-color" content="#ef5350" />
 
   {% if page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
@@ -72,7 +73,6 @@
   <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
   {% endif %}
 
-
   <meta property="og:type" content="website" />
 
   {% if page.id %}
@@ -88,7 +88,6 @@
   {% elsif site.avatar %}
   <meta property="og:image" content="{{ site.url }}{{ site.avatar }}" />
   {% endif %}
-  
 
   <!-- Twitter summary cards -->
   <meta name="twitter:card" content="summary" />
