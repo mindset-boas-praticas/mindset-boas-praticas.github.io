@@ -16,9 +16,10 @@ A solução para esse problema é muito simples, mas não é tão fácil quanto 
 
 ## O simples que não é fácil
 
-Testes é um assunto bem antigo na área de desenvolvimento de software, desde de o começo, quando se programava fazendo buracos em um cartão já haviam programadores que esperavam horas e horas para ver se a aplicação funcionou como esperado.
+Testes é um assunto bem antigo na área de desenvolvimento de software, desde o começo quando se programava fazendo buracos em um cartão já haviam programadores que esperavam horas e horas para ver se a aplicação funcionou como esperado.
 
-A tecnologia evoluiu e hoje podemos rodar testes em milisegundos, mas será que nossa mentalidade evoluiu junto?
+A tecnologia evoluiu e hoje podemos rodar testes em milisegundos, mas será que nossa mentalidade 
+como desenvolvedores evoluiu junto?
 
 Ainda é comum não dar a importância devida as testes, "vamos entregar primeiro e depois criar os testes" e "o prazo está apertado" são as desculpas mais usadas para esconder a preguiça ou falta de maturidade da equipe.
 
@@ -43,7 +44,7 @@ Quanto mais desses testes produzirmos para nossa aplicação, mais segurança e 
 
 É lógico que precisamos dedicar muito tempo e esforço pra criar tantos testes, e isso quer dizer mais gasto para a empresa, mas quanto será que vale ter um software estável e uma equipe segura para trabalhar nele?
 
-Quantas aplicações você já trabalhou que mais pareciam um frankenstein e que davam até medo de trabalhar com "aquilo"? Valeu a pena?
+Quantas aplicações você já trabalhou que mais pareciam um "frankenstein" e que davam até medo de trabalhar com "aquilo"? Valeu a pena?
 
 ![software frankenstein](/img/posts/frankenstein-software.png)
 
@@ -51,7 +52,7 @@ Uma ótima maneira de se cobrir a aplicação com testes é criando eles antes d
 
 ### 2 - Testes mudam o mindset dos desenvolvedores
 
-Se você quer garantir a máxima qualidade nos testes você deve fazê-lo antes mesmo de codar cada nova funcionalidade, isso porque a nossa concentração vai estar totalmente focada no problema que temos que resolver.
+Se você quer garantir a máxima qualidade nos testes você deve fazê-los antes mesmo de codar cada nova funcionalidade, isso porque a nossa concentração vai estar totalmente focada no problema que temos que resolver.
 
 Se você já tentou fazer o teste antes do código (TDD) você deve ter reparado que essa prática causou um pequeno bug na sua mente, isso acontece devido a mudança de mentalidade na hora de desenvolver.
 
@@ -69,15 +70,17 @@ Na minha experiência, quando eu faço o código antes dos testes, gasto energia
 
 Automação é um negócio mágico, nós seres humanos temos problemas com tarefas repetitivas, por isso que a idéia de carros sem motorista está crescendo tanto hoje em dia, e não é diferente em relação aos testes de software.
 
-Em muitos projetos que trabalhei haviam muitos testes, mas eles eram completamente inúteis, por mais esforço que faziamos pra criar testes pra cada código que produzimos, era só descuidar um pouco e pronto, mais de 20 testes quebrando.
+Em muitos projetos que trabalhei haviam muitos testes, mas eles eram completamente inúteis, por mais esforço que fazíamos pra cobrir a aplicação com testes, era só descuidar um pouco e pronto, mais de 20 testes quebrando.
 
 Isso acontece porque não existe testes sem automação, se os seus testes não estão "plugados" em algum processo de implantação do software eles não valem de nada, sempre vão continuar desatualizados e muitas vezes quebrando.
 
-Quando você coloca os testes no script que faz deploy da sua aplicação, ai ele vira um teste automatizado de verdade, porque se um estiver quebrando ninguém vai conseguir fazer deploy parando todo processo de entrega do software.
+Quando você coloca os testes para rodar no script que faz deploy da sua aplicação, nesse momento
+ele vira um teste automatizado de verdade, porque se um `expect` estiver quebrando ninguém vai conseguir fazer 
+deploy parando todo processo de entrega do software.
 
 ![testes falhando não passarão](/img/posts/shall-not-pass.jpg)
 
-Se você adicionar uma validação de coverage mínimo de 90% para testes unitários, você vai ser um programador mais feliz, mas isso é assunto para outro post!
+Se além disso você adicionar uma validação de coverage mínimo de 90% para testes unitários, você vai ser um programador mais feliz, mas isso é assunto para outro post!
 
 > "Testes são como seus amigos, não os ignore se quiser ser feliz."
 
