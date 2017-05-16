@@ -1,36 +1,13 @@
-<nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-  <div class="main-container">
+<nav class="navbar">
+  <div class="main-container clearfix">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
       <a class="navbar-brand" href="{{ site.url }}">{{ site.title }}</a>
     </div>
 
-    <div class="collapse navbar-collapse" id="main-navbar">
-      <ul class="nav navbar-nav navbar-right">
-      {% for link in site.navbar-links %}
-        {% if link[1].first %}
-          <li class="navlinks-container">
-            <a class="navlinks-parent" href="javascript:void(0)">{{ link[0] }}</a>
-            <div class="navlinks-children">
-              {% for childlink in link[1] %}
-                {% for linkparts in childlink %}
-                  {% include navbarlink.html link=linkparts %}
-                {% endfor %}
-              {% endfor %}
-            </div>
-          </li>
-        {% else %}
-          <li>
-            {% include navbarlink.html link=link %}
-          </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
+    <ul class="nav navbar-nav" id="main-navbar">
+    {% for link in site.navbar-links %}
+      <li>{% include navbarlink.html link=link %}</li>
+    {% endfor %}
+    </ul>
   </div>
 </nav>

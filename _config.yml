@@ -70,7 +70,6 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
-  telephone: false
 
 # Select which share links to show in posts
 share-links-active:
