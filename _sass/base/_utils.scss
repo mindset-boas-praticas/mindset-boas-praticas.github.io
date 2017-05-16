@@ -1,0 +1,30 @@
+.clearfix {
+  &::after,
+  &::before {
+    display: table;
+    content: " ";
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+  clip: rect(0,0,0,0);
+}
+
+.main-container {
+  max-width: 750px;
+  width: 90%;
+  margin: 0 auto;
+}

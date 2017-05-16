@@ -1,0 +1,56 @@
+.navbar {
+  border-bottom: 1px solid #eaeaea;
+
+  .navbar-brand {
+    float: left;
+
+    display: block;
+    height: 50px;
+    padding: 15px 0;
+
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+.navbar-header {
+  float: left;
+}
+
+.navbar-nav {
+  float: right;
+
+  margin: 5px 0 0;
+  padding-left: 0;
+
+  margin-bottom: 0;
+  list-style: none;
+
+  > li {
+    display: block;
+
+    > a {
+      display: block;
+      padding: 10px 0;
+
+      font-size: 14px;
+      letter-spacing: 1px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar {
+    padding: 20px 0;
+
+    > li {
+      float: left;
+
+      > a {
+        padding: 15px 0;
+      }
+    }
+  }
+}

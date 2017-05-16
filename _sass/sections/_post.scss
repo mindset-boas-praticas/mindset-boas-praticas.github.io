@@ -1,0 +1,79 @@
+/* ========== PREVIEW ========== */
+
+.post-preview {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .post-title-link {
+    margin: 0 0 30px;
+  }
+
+  .post-title {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .post-subtitle {
+    margin: 10px 0 0;
+  }
+
+  .post-entry {
+    margin: 0;
+  }
+
+  .post-read-more {
+    font-weight: 800;
+  }
+}
+
+/* ========== META ========== */
+.post-meta {
+  color: $gray-color;
+  font-size: 15px;
+  margin: 20px 0;
+
+  .post-date {
+    float: left;
+  }
+
+  .post-categories {
+    float: right;
+  }
+}
+
+.post-date {
+  float: left;
+}
+
+/* ========== CONTAINER ========== */
+
+.post-container {
+  img {
+    display: block;
+    margin: 20px auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .post-preview {
+    padding: 30px 0;
+
+    .post-title-link {
+      margin: 0 0 20px;
+    }
+  }
+
+  .post-meta {
+    margin: 30px 0;
+  }
+
+  .post-container {
+    img {
+      margin: 30px auto;
+    }
+  }
+}

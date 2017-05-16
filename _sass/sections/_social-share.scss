@@ -1,0 +1,41 @@
+.social-share {
+  a {
+    float: left;
+
+    display: block;
+    margin: 0 7px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.social-share-title {
+  margin: 10px 0;
+}
+
+.social-share-container {
+  @extend .clearfix;
+}
+
+.social-share-facebook svg path {
+  fill: #3b5998;
+}
+
+.social-share-twitter svg path {
+  fill: #1da1f2;
+}
+
+.social-share-google-plus svg path {
+  fill: #dc4e41;
+}
+
+.social-share-linkedin svg path {
+  fill: #0077b5;
+}

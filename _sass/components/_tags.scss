@@ -1,0 +1,26 @@
+.blog-tags {
+  margin-top: 20px;
+
+  font-size: 15px;
+  color: $gray-color;
+
+  a {
+    padding: 0px 5px;
+
+    border-radius: 2px;
+
+    text-decoration: none;
+
+    &:hover {
+      background-color: $primary-color;
+
+      color: #fff;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .blog-tags {
+    margin-top: 30px;
+  }
+}
