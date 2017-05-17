@@ -9,7 +9,8 @@
   }
 
   .post-title-link {
-    margin: 0 0 30px;
+    display: block;
+    margin: 0 0 20px;
   }
 
   .post-title {
@@ -34,15 +35,11 @@
 .post-meta {
   color: $gray-color;
   font-size: 15px;
-  margin: 20px 0;
+  margin: 20px 0 0;
+}
 
-  .post-date {
-    float: left;
-  }
-
-  .post-categories {
-    float: right;
-  }
+.post-categories {
+  float: right;
 }
 
 .post-date {
@@ -63,12 +60,12 @@
     padding: 30px 0;
 
     .post-title-link {
-      margin: 0 0 20px;
+      margin: 0 0 30px;
     }
   }
 
   .post-meta {
-    margin: 30px 0;
+    margin: 30px 0 0;
   }
 
   .post-container {

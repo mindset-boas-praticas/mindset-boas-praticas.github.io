@@ -1,22 +1,28 @@
-<header class="header-section {% if page.bigimg %}has-img{% endif %}">
+<header class="header-section {% if page.bigimg %}has-img{% endif %} header-{{ include.type }}">
   {% if page.bigimg %}
   <div class="big-img intro-header" style="background-image: url({{ page.bigimg }})">
   {% else %}
   <div class="intro-header no-img">
   {% endif %}
     <div class="main-container">
-      <div class="{{ include.type }}-heading">
-      {% if page.url == "/" %}
-        <h1>{{ page.subtitle }}</h1>
-      {% else %}
-        {% if page.title %}
-        <h1>{{ page.title }}</h1>
-        {% endif %}
-        {% if page.subtitle %}
-        <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
-        {% endif %}
+    {% if page.url == "/" %}
+      <h1>{{ page.subtitle }}</h1>
+    {% else %}
+      {% if page.title %}
+      <h1>{{ page.title }}</h1>
       {% endif %}
-      </div>
+      {% if page.subtitle %}
+      <h2 class="{{ include.type }}-subheading">{{ page.subtitle }}</h2>
+      {% endif %}
+    {% endif %}
+    {% if include.type == 'post' %}
+    <hr class="header-line">
+    <div class="post-meta clearfix">
+      <p>Por {{ page.author }}</p>
+      <p>{% include post/date.html %}</p>
+      {% include post/minutes-to-read.html %}
+    </div>
+    {% endif %}
     </div>
   </div>
 </header>

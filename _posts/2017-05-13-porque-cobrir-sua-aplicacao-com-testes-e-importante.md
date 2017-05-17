@@ -2,6 +2,7 @@
 layout: post
 title: Porque cobrir sua aplicação com testes é importante?
 bigimg: /img/posts/jest-test-coverage.png
+author: Thomás Alvarenga
 ---
 
 Em algum momento da sua vida como desenvolvedor você teve medo de trabalhar com algum código? Você já se sentiu inseguro ao dar manutenção em uma aplicação e não saber se vai quebrar alguma coisa?

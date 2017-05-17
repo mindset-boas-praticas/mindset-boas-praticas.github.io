@@ -1,19 +1,39 @@
 .header-section {
   margin: 20px 0;
 
+  text-align: center;
+
   &.has-img {
     margin-top: 0;
   }
 
+  &.header-post {
+    text-align: left;
+  }
+
   h1 {
+    margin: 0 0 20px;
+
     font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  .post-meta {
+    color: #fff;
+
+    p {
+      margin: 5px 0;
+    }
+  }
+
+  .post-date,
+  .post-categories {
+    float: none;
   }
 }
 
 .intro-header {
   position: relative;
-
-  text-align: center;
 
   .main-container {
     position: relative;
@@ -37,10 +57,13 @@
       background-color: rgba(0, 0, 0, .7);
 
       content: " ";
+
+      .header-post & {
+        background-color: rgba(0, 0, 0, .85);
+      }
     }
 
-    .page-heading,
-    .post-heading {
+    .main-container {
       padding: 50px 0;
 
       text-shadow: 1px 1px 3px #000;
@@ -53,19 +76,30 @@
   }
 }
 
+.header-line {
+  width: 100px;
+  margin: 10px 0;
+
+  border: 0;
+  border-bottom: 1px solid #fff;
+}
+
 @media only screen and (min-width: 768px) {
   .header-section {
     margin: 30px 0;
 
     h1 {
+      margin: 0 0 30px;
+
       font-size: 2.2em;
     }
   }
 
-  .intro-header {
-    &.big-img .page-heading,
-    &.big-img .post-heading  {
-      padding: 150px 0;
-    }
+  .header-post .intro-header.big-img .main-container {
+    padding: 100px 0;
+  }
+
+  .header-page .intro-header.big-img .main-container {
+    padding: 150px 0;
   }
 }
