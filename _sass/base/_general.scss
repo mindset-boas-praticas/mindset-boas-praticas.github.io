@@ -39,6 +39,9 @@ a {
 blockquote {
   color: $gray-color;
   font-style: italic;
+  border-left: 2px solid #ccc;
+  margin: 0;
+  padding-left: 20px;
 
   p:first-child {
     margin-top: 0;
