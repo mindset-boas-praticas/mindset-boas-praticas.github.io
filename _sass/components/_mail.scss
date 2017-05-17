@@ -1,0 +1,25 @@
+.mail-pending-step {
+  width: 300px;
+  margin: 0 auto;
+  padding: 15px 0;
+
+  border-bottom: 1px dotted #c9c9c9;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  .badge {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+    background-color: $primary-color;
+    border-radius: 100%;
+
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+  }
+}
