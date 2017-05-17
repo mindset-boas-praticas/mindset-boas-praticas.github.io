@@ -20,11 +20,6 @@ bigimg: /img/header.jpg
       {% endif %}
     </a>
 
-    <div class="post-meta clearfix">
-      {% include post/date.html %}
-      {% include post/minutes-to-read.html %}
-    </div>
-
     <p class="post-entry">
       {{ post.excerpt | strip_html | xml_escape | truncatewords: site.excerpt_length }}
       {% assign excerpt_word_count = post.excerpt | number_of_words %}
@@ -32,6 +27,11 @@ bigimg: /img/header.jpg
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Leia Mais]</a>
       {% endif %}
     </p>
+
+    <div class="post-meta clearfix">
+      {% include post/date.html %}
+      {% include post/minutes-to-read.html %}
+    </div>
 
     {% if post.tags.size > 0 %}
     <div class="blog-tags">
