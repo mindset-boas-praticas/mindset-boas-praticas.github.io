@@ -17,7 +17,9 @@
   <meta name="theme-color" content="#ef5350" />
   <link rel="icon" type="image/x-icon" href="{{ site.url }}/favicon.ico" />
 
-  {% if page.subtitle %}
+  {% if page.meta-description %}
+  <meta name="description" content="{{ page.meta-description }}">
+  {% elsif page.subtitle %}
   <meta name="description" content="{{ page.subtitle }}">
   {% endif %}
 
@@ -61,7 +63,7 @@
     {% endfor %}
   {% endif %}
 
-    <!-- Facebook OpenGraph tags -->
+  <!-- Facebook OpenGraph tags -->
   {% if site.fb_app_id %}
   <meta property="fb:app_id" content="{{ site.fb_app_id }}" />
   {% endif %}
@@ -74,7 +76,7 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
 
-   {% if page.meta-description %}
+  {% if page.meta-description %}
   <meta property="og:description" content="{{ page.meta-description }}">
   {% elsif page.subtitle %}
   <meta property="og:description" content="{{ page.subtitle }}">
