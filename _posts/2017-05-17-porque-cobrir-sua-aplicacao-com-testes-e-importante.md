@@ -48,7 +48,7 @@ Quanto mais desses testes produzirmos para nossa aplicação, mais segurança e 
 
 Quantas aplicações você já trabalhou que mais pareciam um "frankenstein" e que davam até medo de trabalhar com "aquilo"? Valeu a pena?
 
-![software frankenstein](/img/posts/frankenstein-software.png)
+![software frankenstein](/img/posts/frankenstein-software.jpg)
 
 Uma ótima maneira de se cobrir a aplicação com testes é criando eles antes de escrever o código em si, mas isso já é o próximo tópico.
 
