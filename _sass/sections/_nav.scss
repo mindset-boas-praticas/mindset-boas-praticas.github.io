@@ -3,6 +3,7 @@
 
   .navbar-brand {
     float: left;
+    position: relative;
 
     display: block;
     height: 50px;
@@ -10,6 +11,21 @@
 
     font-size: 18px;
     line-height: 20px;
+
+    &::after {
+      position: absolute;
+      top: 9px;
+
+      display: block;
+      width: 30px;
+      height: 27px;
+
+      background: url(../img/logo.png);
+      opacity: 0;
+      content: " ";
+
+      animation: toright .6s .6s forwards;
+    }
   }
 }
 
@@ -50,5 +66,17 @@
         padding: 15px 0;
       }
     }
+  }
+}
+
+@keyframes toright {
+  from {
+    opacity: 0;
+    right: 20px;
+  }
+
+  to {
+    opacity: 1;
+    right: -34px;
   }
 }
