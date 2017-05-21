@@ -9,25 +9,25 @@ date: 2017-05-17 08:00:00
 
 > "Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo."
 
-A frase acima é um dos [princípios do manifesto ágil](http://agilemanifesto.org/iso/ptbr/principles.html) e para que possamos **entregar software de qualidade e funcionando** a de implantação processos de integração, entrega e implantação contínua é essencial. Antes de explicarmos a diferença entres esses processos é necessário entender a importância deles no desenvolvimento de software.
+A frase acima é um dos [princípios do manifesto ágil](http://agilemanifesto.org/iso/ptbr/principles.html){:target="_blank"} e para que possamos **entregar software de qualidade funcionando** a implementação de processos de integração, entrega e implantação contínua é essencial, mas antes de explicarmos a diferença entres esses processos é necessário entender a importância deles no desenvolvimento de software.
 
 > "Nossa maior prioridade é satisfazer o cliente através da entrega contínua e adiantada de software com valor agregado."
 
-Esse é outro princípio ágil que sintetiza muito bem a importância da **entrega contínua** de software: **satisfazer o cliente**. E em um mercado cada vez mais competitivo, para que nossos produtos/softwares se mantenham vivos é essencial que possamos entregar software de qualidade em curtos espaços de tempo.
+Esse é outro princípio ágil que sintetiza muito bem a importância da **entrega contínua** de software: **satisfazer o cliente**, e para que nossos produtos se mantenham vivos em um mercado cada vez mais competitivo, é essencial que possamos entregar software de qualidade em curtos espaços de tempo.
 
-Para realizarmos essas entregas de uma forma segura é necessário implementarmos alguns processos, e como falamos no [post anterior]({% post_url 2017-05-17-porque-cobrir-sua-aplicacao-com-testes-e-importante %}), nós temos problemas com tarefas repetitivas, logo, **automatizar** esses processos é a primeira coisa que devemos fazer.
+Para realizarmos essas entregas de uma forma segura é necessário implementarmos alguns processos, e como falamos no [post anterior]({% post_url 2017-05-17-porque-cobrir-sua-aplicacao-com-testes-e-importante %}){:target="_blank"}, nós temos problemas com tarefas repetitivas, logo, **automatizar** esses scripts é a primeira coisa que devemos fazer.
 
 Então, vamos detalhar cada um desses processos.
 
 ## 1 - Integração Contínua (*Continuous Integration*)
 
-Esse processo consiste em juntar o seu trabalho, seja uma nova feature ou correção de bug, com o restante da aplicação. Um exemplo prático, fazer o *merge* de um *pull request* no repositório git da sua aplicação.
+Esse processo consiste em juntar o seu trabalho, seja uma nova feature ou correção de bug, com o restante da aplicação. Um exemplo prático é fazer o *merge* de um *pull request* no repositório git da sua aplicação.
 
 ![git merge](/img/posts/git-merge.gif)
 
-Cada integração roda um processo de *build* (compilação do código, testes unitários, testes de integração, etc) automatizado, possibilitando que o time possa visualizar possíveis problemas gerados pela integração e corrigí-los o mais rapidamente, trazendo agilidade e garantindo a qualidade do software.
+Cada integração roda um processo de *build* automatizado (compilação do código, testes unitários, testes de integração e etc), possibilitando que o time possa visualizar possíveis problemas gerados pelo novo código e corrigí-los o mais rapidamente possível, trazendo agilidade e garantindo a qualidade do software.
 
-Para garantir que realmente o código integrado a base de código existente é confiável, é extremamente importante que os testes que verificam o funcionamento correto do software estejam atualizados e tenham boa cobertura.
+Para garantir que realmente o novo código integrado ao já existente é confiável, é extremamente importante que os testes que verificam o funcionamento correto do software estejam atualizados e tenham boa cobertura.
 
 Com testes confiáveis e o código devidamente integrado podemos ir para o próximo processo.
 
@@ -43,7 +43,7 @@ O objetivo da entrega contínua é assegurar que o código integrado pode ser im
 
 ## 3 - Implantação Contínua (*Continuous Deployment*)
 
-Com os testes passando nos processos de integração contínua e entrega contínua, garantimos que o software está pronto para publicado. O processo de enviar o código para produção deve ser simples e automatizado.
+Com os testes passando nos processos de integração contínua e entrega contínua, garantimos que o software está pronto para ser publicado. O processo de enviar o código para produção deve ser simples e automatizado.
 
 ![deploy para produção](/img/posts/winter-is-coming-brace-yourselves-a-deploy-to-production-is-coming.jpg)
 
@@ -51,25 +51,27 @@ A implantação contínua visa garantir a entrega para os usuários finais imped
 
 Os testes realizados no processo de entrega contínua podem ser utilizados para garantir que o que foi publicado está de acordo com o esperado.
 
-Vale ressaltar que para que todos os processos funcionem bem, garantir que todos os ambientes tenham as mesmas configurações é extremamente importante, mas esse é um assunto para um próximo post.
+Vale ressaltar que para que todos os processos funcionem bem, é extremamente importante garantir que todos os ambientes tenham as mesmas configurações, mas esse é um assunto para um próximo post.
 
----
+Já trabalhei em projetos onde deploys para produção deveriam ser agendados com dias de antecedência e só podiam acontecer a meia-noite, porque era a hora em que tinham menos pessoas utilizando o software, o que impedia a entrega rápida de valor para o usuário. 
 
-Já trabalhei em projetos onde deploys para produção deveriam ser agendados, impedindo assim a entrega rápida de valor para o usuário. A implementação desses processos trouxe mais agilidade para o time que vendo o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário, seja com novas *features* ou correção de *bugs*, o deixou mais feliz e motivado com seu trabalho.
+A implementação desses processos trouxe mais agilidade para o time e o deixou mais feliz e motivado, pois viram o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário, seja com novas *features* ou correção de *bugs*.
 
-Importante ressaltar que em um cenário onde nenhum desses processos é implementado, o ideal é que eles sejam adicionados aos poucos, afinal, é melhor **dividir para conquistar**. A cada implementação avalie e adapte o fluxo e tarefas executadas em cada processo.
+Importante ressaltar que em um cenário onde nenhum desses processos é implementado, existe um fenômeno chamado **"Medo de Deploy"** que gera insegurança nos desenvolvedores e um acumulo de código não utilizado em ambientes de homologação. 
 
-Lembre-se também da importância dos testes, sejam eles automatizados ou manuais, para assegurar a qualidade do produto/software e que ele continue funcionando como esperado.
+O ideal é que esses processos sejam adicionados aos poucos no seu projeto, afinal, é melhor **dividir para conquistar**. A cada implementação avalie e adapte o fluxo e tarefas executadas em cada processo.
+
+Lembre-se também da importância dos testes automatizados, para assegurar a qualidade do software e para que ele continue funcionando como esperado.
 
 Ficou interessado e quer aplicar esses processos? Existem várias soluções prontas que podem te ajudar, dentre elas:
 
-- [Jenkins](https://jenkins.io/)
-- [Travis CI](https://travis-ci.org/)
-- [Go CD](https://www.gocd.io/)
-- [CircleCI](https://circleci.com/)
-- [Codeship](https://codeship.com/)
-- [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/)
-- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines)
+- [Jenkins](https://jenkins.io/){:target="_blank"}
+- [Travis CI](https://travis-ci.org/){:target="_blank"}
+- [Go CD](https://www.gocd.io/){:target="_blank"}
+- [CircleCI](https://circleci.com/){:target="_blank"}
+- [Codeship](https://codeship.com/){:target="_blank"}
+- [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/){:target="_blank"}
+- [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines){:target="_blank"}
 
 Converse com seu time, estudem, avaliem e planejem cada processo, afinal, **se quiser ir rápido, vá sozinho, se quiser ir longe, vá em grupo**.
 
