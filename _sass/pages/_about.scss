@@ -1,0 +1,24 @@
+.about-author {
+  float: left;
+
+  width: 50%;
+  margin: 0;
+  padding: 10px;
+
+  text-align: center;
+
+  img {
+    width: 200px;
+
+    border-radius: 100%;
+  }
+
+  h2 {
+    margin: 5px;
+  }
+
+  a {
+    display: block;
+    margin-bottom: 5px;
+  }
+}
