@@ -15,6 +15,10 @@ A frase acima é um dos [princípios do manifesto ágil](http://agilemanifesto.o
 
 Esse é outro princípio ágil que sintetiza muito bem a importância da **entrega contínua** de software: **satisfazer o cliente**, e para que nossos produtos se mantenham vivos em um mercado cada vez mais competitivo, é essencial que possamos entregar software de qualidade em curtos espaços de tempo.
 
+Já trabalhei em projetos onde deploys para produção deveriam ser agendados, o que impedia a entrega rápida de valor para o usuário.
+
+A implementação desses processos trouxe mais agilidade para o time e o deixou mais feliz e motivado, pois viram o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário, seja com novas *features* ou correção de *bugs*.
+
 Para realizarmos essas entregas de uma forma segura é necessário implementarmos alguns processos, e como falamos no [post anterior]({% post_url 2017-05-17-porque-cobrir-sua-aplicacao-com-testes-e-importante %}){:target="_blank"}, nós temos problemas com tarefas repetitivas, logo, **automatizar** esses scripts é a primeira coisa que devemos fazer.
 
 Então, vamos detalhar cada um desses processos.
@@ -52,10 +56,6 @@ A implantação contínua visa garantir a entrega para os usuários finais imped
 Os testes realizados no processo de entrega contínua podem ser utilizados para garantir que o que foi publicado está de acordo com o esperado.
 
 Vale ressaltar que para que todos os processos funcionem bem, é extremamente importante garantir que todos os ambientes tenham as mesmas configurações, mas esse é um assunto para um próximo post.
-
-Já trabalhei em projetos onde deploys para produção deveriam ser agendados com dias de antecedência e só podiam acontecer a meia-noite, porque era a hora em que tinham menos pessoas utilizando o software, o que impedia a entrega rápida de valor para o usuário. 
-
-A implementação desses processos trouxe mais agilidade para o time e o deixou mais feliz e motivado, pois viram o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário, seja com novas *features* ou correção de *bugs*.
 
 Importante ressaltar que em um cenário onde nenhum desses processos é implementado, existe um fenômeno chamado **"Medo de Deploy"** que gera insegurança nos desenvolvedores e um acumulo de código não utilizado em ambientes de homologação. 
 
