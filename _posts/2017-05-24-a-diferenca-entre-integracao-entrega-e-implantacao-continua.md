@@ -4,7 +4,7 @@ title: A diferença entre integração, entrega e implantação contínua
 meta-description: Qual a diferença, importância e benefícios que esses processos trazem ao desenvolvimento de software?
 bigimg: /img/posts/continuous-delivery-versus-continuous-deployment.jpg
 author: Vítor Nogueira
-date: 2017-05-17 08:00:00
+date: 2017-05-24 00:00:00
 ---
 
 > "Entregar frequentemente software funcionando, de poucas semanas a poucos meses, com preferência à menor escala de tempo."
