@@ -72,6 +72,7 @@ Ficou interessado e quer aplicar esses processos? Existem várias soluções pro
 - [Codeship](https://codeship.com/){:target="_blank"}
 - [GitLab CI](https://about.gitlab.com/features/gitlab-ci-cd/){:target="_blank"}
 - [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines){:target="_blank"}
+- [Bamboo](https://www.atlassian.com/software/bamboo){:target="_blank"}
 
 Converse com seu time, estudem, avaliem e planejem cada processo, afinal, **se quiser ir rápido, vá sozinho, se quiser ir longe, vá em grupo**.
 
