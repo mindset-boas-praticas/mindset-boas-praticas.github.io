@@ -17,7 +17,7 @@ Esse é outro princípio ágil que sintetiza muito bem a importância da **entre
 
 Já trabalhei em projetos onde deploys para produção deveriam ser agendados, o que impedia a entrega rápida de valor para o usuário.
 
-A implementação desses processos trouxe mais agilidade para o time e o deixou mais feliz e motivado, pois viram o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário, seja com novas *features* ou correção de *bugs*.
+A implementação desses processos trouxe mais agilidade para o time e o deixou mais feliz e motivado, pois viram o resultado do seu trabalho causando um impacto mais rápido na experiência do usuário.
 
 Para realizarmos essas entregas de uma forma segura é necessário implementarmos alguns processos, e como falamos no [post anterior]({% post_url 2017-05-17-porque-cobrir-sua-aplicacao-com-testes-e-importante %}){:target="_blank"}, nós temos problemas com tarefas repetitivas, logo, **automatizar** esses scripts é a primeira coisa que devemos fazer.
 
