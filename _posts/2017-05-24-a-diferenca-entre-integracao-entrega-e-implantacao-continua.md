@@ -57,7 +57,7 @@ Os testes realizados no processo de entrega contínua podem ser utilizados para 
 
 Vale ressaltar que para que todos os processos funcionem bem, é extremamente importante garantir que todos os ambientes tenham as mesmas configurações, mas esse é um assunto para um próximo post.
 
-Importante ressaltar que em um cenário onde nenhum desses processos é implementado, existe um fenômeno chamado **"Medo de Deploy"** que gera insegurança nos desenvolvedores e um acumulo de código não utilizado em ambientes de homologação. 
+Em um cenário onde nenhum desses processos é implementado, existe um fenômeno chamado **"Medo de Deploy"** que gera insegurança nos desenvolvedores e uma aplicação que não é atualizada constantemente, prejudicando o usuário e até a própria empresa. 
 
 O ideal é que esses processos sejam adicionados aos poucos no seu projeto, afinal, é melhor **dividir para conquistar**. A cada implementação avalie e adapte o fluxo e tarefas executadas em cada processo.
 
