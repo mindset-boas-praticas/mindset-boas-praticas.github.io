@@ -2,19 +2,16 @@
 layout: post
 title: Como dar nomes para suas variáveis, métodos e classes?
 meta-description: Qual a diferença, importância e benefícios que esses processos trazem ao desenvolvimento de software?
-bigimg: /img/posts/words-cloud.png
+bigimg: /img/posts/words-cloud.jpg
 author: Thomas Alvarenga
 date: 2017-05-24 08:00:00
 ---
 
 > "Existem duas coisas muito difíceis no mundo da ciência da computação: invalidação de cache e **nomear coisas**." - Phil Karlton
 
-Você já ficou travado muito tempo tentando achar um nome pra aquela variável, método ou classe?
-Parece algo muito besta mas as vezes se torna uma coisa muito dificil e se escolhermos errado, depois de
-um tempo sem mexer naquele projeto, você vai acabar esquecendo pra que serve aquela parte do código.
+Você já ficou travado muito tempo tentando achar um nome pra aquela variável, método ou classe? Parece algo muito besta mas as vezes se torna uma coisa muito dificil e se escolhermos errado, depois de um tempo sem mexer naquele projeto, você vai acabar esquecendo pra que serve aquela parte do código.
 
-Eu já trabalhei em um lugar onde tinha variáveis com nome **goku** e até **pikachu**, e esse código estava
-em produção, eu fiquei muito assustado, porque se os nomes da aplicação estavam daquele jeito, imagina o resto.
+Eu já trabalhei em um lugar onde tinha variáveis com nome **goku** e até **pikachu**, e esse código estava em produção, eu fiquei muito assustado, porque se os nomes da aplicação estavam daquele jeito, imagina o resto.
 
 Dar nomes corretos para cada pequena parte na sua aplicação é uma das coisas mais importantes para a manutenção, entendimento e comunicação entre todos os desenvolvedores da equipe.
 
@@ -28,8 +25,7 @@ Nesse momento você deve estar se perguntando:
 
 * Como eu vou saber que o nome que eu estou dando vai ser entendido pelos meus colegas de trabalho?
 
-A resposta pra essas perguntas é SIM! Existem regras e padrões que podem te ajudar a dar um bom nome e fazer
-com que todos entendam o sentido das variáveis, métodos e classes que você batizou.
+A resposta pra essas perguntas é SIM! Existem regras e padrões que podem te ajudar a dar um bom nome e fazer com que todos entendam o sentido das variáveis, métodos e classes que você batizou.
 
 Isso pode ser aplicado a qualquer contexto de programação, seja em nomes de arquivos, pastas, funções, constantes, módulos, gems, packages e por ai vai.
 
@@ -37,8 +33,7 @@ Isso pode ser aplicado a qualquer contexto de programação, seja em nomes de ar
 
 ![magic](/img/posts/magic.gif)
 
-Pode acreditar, porque agora eu vou te mostrar 4 técnicas infalíveis para você começar a dar bons nomes 
-para tudo na sua aplicação e não ficar mais travado sem conseguir decidir o nome de cada coisa.
+Pode acreditar, porque agora eu vou te mostrar 4 técnicas infalíveis para você começar a dar bons nomes para tudo na sua aplicação e não ficar mais travado sem conseguir decidir o nome de cada coisa.
 
 ## 1 - Use Nomes que Revelem a Intenção
 
@@ -164,7 +159,7 @@ function connect() {}
 
 Convenção sobre configuração é um paradigma de desenvolvimento de software que tem como objetivo diminuir a quantidade de decisões que os programadores precisam tomar quando estão desenvolvedo uma aplicação.
 
-<img src="img/posts/wtf.jpg" alt="what the fuck?" width="300"/>
+![what the fuck?](/img/posts/wtf.jpg)
 
 Isso é útil para muitas coisas, por exemplo, serve para poupar tempo na hora de decidir nomes para cada parte da aplicação e faz com que o sistema siga um padrão convencional de muitos outros do mundo inteiro.
 
