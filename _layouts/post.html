@@ -9,9 +9,7 @@ layout: base
     {{ content }}
   </article>
 
-  {% if page.social-share %}
-    {% include social-share.html %}
-  {% endif %}
+  {% include post-social.html %}
 
   {% if page.tags.size > 0 %}
   <div class="blog-tags">
