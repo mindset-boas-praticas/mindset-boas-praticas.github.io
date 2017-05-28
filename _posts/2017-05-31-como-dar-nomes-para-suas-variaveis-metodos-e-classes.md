@@ -5,6 +5,7 @@ meta-description: Qual a diferença, importância e benefícios que esses proces
 bigimg: /img/posts/words-cloud.jpg
 author: Thomas Alvarenga
 date: 2017-05-24 08:00:00
+code-hightlight: true
 ---
 
 > "Existem duas coisas muito difíceis no mundo da ciência da computação: invalidação de cache e **nomear coisas**." - Phil Karlton
