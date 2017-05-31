@@ -15,6 +15,8 @@ Você já ficou travado muito tempo tentando achar um nome para aquela variável
 
 Eu já trabalhei em uma aplicação onde tinha variáveis com nome **goku** e até **pikachu**, esse código estava em produção e eu fiquei muito assustado, porque se os nomes das variáveis estavam daquele jeito, imagina o resto.
 
+![goku](/img/posts/goku.gif)
+
 Dar nomes corretos para cada pequena parte na sua aplicação é uma das coisas mais importantes para a manutenção, entendimento e comunicação entre todos os desenvolvedores da equipe, pois deixa o código limpo e de rápida compreensão.
 
 Sendo assim, não tem como você dar nomes que não façam sentido no contexto ou que as pessoas não consigam pronunciar, porque isso vai atrapalhar a comunicação da equipe.
@@ -33,7 +35,7 @@ Isso pode ser aplicado a qualquer contexto de programação, seja em nomes de ar
 
 *"Eu não acredito, isso só pode ser magia!"*
 
-![magic](/img/posts/magic.gif)
+![mágica do codigo limpo](/img/posts/magic.gif)
 
 Pode acreditar, porque agora eu vou te mostrar 4 técnicas infalíveis para você começar a dar bons nomes para tudo na sua aplicação, ter um código limpo e não ficar mais travado sem conseguir decidir como chamar cada coisa.
 
