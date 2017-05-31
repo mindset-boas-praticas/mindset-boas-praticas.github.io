@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Como dar nomes para suas variáveis, métodos e classes?
-meta-description: Qual a diferença, importância e benefícios que esses processos trazem ao desenvolvimento de software?
+title: "4 técnicas infalíveis para dar bons nomes e ter um código limpo"
+meta-title: "Clean Code: 4 técnicas infalíveis para dar bons nomes e ter um código limpo"
+meta-description: Você já ficou travado muito tempo tentando achar um nome para aquela variável ou método? Parece algo besta, mas isso é fundamental no clean code (código limpo)
 bigimg: /img/posts/words-cloud.jpg
 author: Thomas Alvarenga
-date: 2017-05-24 08:00:00
+date: 2017-05-31 00:00:00
 code-hightlight: true
 ---
 
@@ -14,7 +15,7 @@ Você já ficou travado muito tempo tentando achar um nome para aquela variável
 
 Eu já trabalhei em uma aplicação onde tinha variáveis com nome **goku** e até **pikachu**, esse código estava em produção e eu fiquei muito assustado, porque se os nomes das variáveis estavam daquele jeito, imagina o resto.
 
-Dar nomes corretos para cada pequena parte na sua aplicação é uma das coisas mais importantes para a manutenção, entendimento e comunicação entre todos os desenvolvedores da equipe.
+Dar nomes corretos para cada pequena parte na sua aplicação é uma das coisas mais importantes para a manutenção, entendimento e comunicação entre todos os desenvolvedores da equipe, pois deixa o código limpo e de rápida compreensão.
 
 Sendo assim, não tem como você dar nomes que não façam sentido no contexto ou que as pessoas não consigam pronunciar, porque isso vai atrapalhar a comunicação da equipe.
 
@@ -26,7 +27,7 @@ Nesse momento você deve estar se perguntando:
 
 * Como eu vou saber se o nome que eu estou dando será entendido pelos meus colegas de trabalho?
 
-A resposta pra essas perguntas é SIM! Existem regras e padrões que podem te ajudar a dar um bom nome e fazer com que todos entendam o sentido das variáveis, métodos e classes que você batizou.
+Existem regras e padrões que podem te ajudar a dar um bom nome e fazer com que todos entendam o sentido das variáveis, métodos e classes que você batizou.
 
 Isso pode ser aplicado a qualquer contexto de programação, seja em nomes de arquivos, pastas, funções, constantes, módulos, gems e por ai vai.
 
@@ -34,7 +35,7 @@ Isso pode ser aplicado a qualquer contexto de programação, seja em nomes de ar
 
 ![magic](/img/posts/magic.gif)
 
-Pode acreditar, porque agora eu vou te mostrar 4 técnicas infalíveis para você começar a dar bons nomes para tudo na sua aplicação e não ficar mais travado sem conseguir decidir o nome de cada coisa.
+Pode acreditar, porque agora eu vou te mostrar 4 técnicas infalíveis para você começar a dar bons nomes para tudo na sua aplicação, ter um código limpo e não ficar mais travado sem conseguir decidir como chamar cada coisa.
 
 ## 1 - Use Nomes que Revelem a Intenção
 
@@ -188,7 +189,7 @@ Caso algo não esteja previsto na convenção, então o desenvolvedor deve criar
 
 Então é isso, mude o seu mindset a respeito dos nomes das suas variáveis, métodos e classes, pois eles tem muita importância na manutenção da sua aplicação e na comunicação com sua equipe.
 
-Aplique essas 4 técnicas para acabar com o sofrimento de ter que investigar o código-fonte pra descobrir o que aquela variável está fazendo ali e seja um programador mais feliz e realizado.
+Aplique essas 4 técnicas para acabar com o sofrimento de ter que investigar o código-fonte pra descobrir o que aquela variável está fazendo ali, assim você terá um código limpo e será um programador mais feliz e realizado.
 
 Um abraço e até o próximo post!
 
