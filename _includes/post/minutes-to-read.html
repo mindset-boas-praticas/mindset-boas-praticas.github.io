@@ -6,9 +6,9 @@
 {% endif %}
 
 {% if words < 360 %}
-    {% assign minutesText = 'Tempo de Leitura: 1 minuto' %}
+    {% assign minutesText = '1 minuto de leitura' %}
 {% else %}
-    {% assign minutesText = words | divided_by:180 | prepend: 'Tempo de Leitura: ' | append: ' minutos' %}
+    {% assign minutesText = words | divided_by:180 | append: ' minutos de leitura' %}
 {% endif %}
 {{ minutesText }}
 </div>
