@@ -6,6 +6,8 @@
   <title>
     {% if page.use-site-title %}
       {{ site.title }} {{ site.title-separator }} {{ site.description }}
+    {% elsif page.meta-title %}
+      {{ page.meta-title }} {{ site.title-separator }} {{ site.title }}
     {% elsif page.title %}
       {{ page.title }} {{ site.title-separator }} {{ site.title }}
     {% else %}
