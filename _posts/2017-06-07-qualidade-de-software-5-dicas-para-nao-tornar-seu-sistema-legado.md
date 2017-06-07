@@ -5,18 +5,18 @@ meta-title: "Qualidade de Software: 5 dicas essenciais para manter a qualidade d
 meta-description: "Código ruim pode diminuir a produtividade, veja algumas dicas para que manter o código da sua aplicação organizado e a qualidade de software sempre alta"
 bigimg: /img/posts/qualidade-de-software.jpg
 author: Vítor Nogueira
-date: 2017-05-31 08:00:00
+date: 2017-06-07 08:00:00
 ---
 
-Começo de um novo projeto, você e sua equipe ficam animados, decidem quais tecnologias utilizarão, definem a arquitetura e começam a desenvolvê-lo. No início tudo vai bem, entregas realizadas como o planejado, sem bugs e a motivação da equipe sempre alta.
+Começo de um novo projeto, você e sua equipe ficam animados, decidem quais tecnologias vão utilizar, definem a arquitetura e começam a desenvolver. No início tudo vai bem, entregas realizadas no prazo, sem bugs e a motivação da equipe sempre alta.
 
-Mas nem tudo são flores, algumas coisas começam a dar errado, o prazo vai acabando, a qualidade do projeto cai cada vez mais e com isso a equipe que está trabalhando no projeto vai perdendo a motivação.
+Mas nem tudo são flores, algumas coisas começam a dar errado, o prazo vai acabando, a qualidade do projeto cai cada vez mais e com isso a equipe vai perdendo a motivação.
 
-Se isso já aconteceu ou acontece com você, fique tranquilo, você não é a única pessoa que passa por isso, mas saiba que você pode fazer algumas coisas para que isso não aconteca mais.
+Se isso já aconteceu ou acontece com você, fique tranquilo, não é o único que passa por isso, mas saiba que você pode fazer algumas coisas para que isso não aconteca mais.
 
 Qualidade é um termo subjetivo, mas quando falamos sobre desenvolvimento de software podemos dizer que um código com alta qualidade é um código organizado, testado e de fácil manutenção.
 
-A seguir você encontrará 5 dicas para que você possa manter a qualidade do seu software e não ter medo de mudanças de requisitos, refatorações e mudanças de tecnologia durante o desenvolvimento do sistema.
+Sendo assim, separei 5 dicas para que você possa manter a qualidade do seu software e não ter medo de mudanças de requisitos, refatorações e mudanças de tecnologia durante o desenvolvimento do sistema.
 
 ## 1. Testes de Software
 
@@ -28,7 +28,7 @@ Mas para que você possa confiar nos testes, é importante ter testes de qualida
 
 ![piramide de testes](/img/posts/test-pyramid.png)
 
-Testes unitários são mais "baratos", crie o máximo possível desse tipo de teste e garanta uma boa cobertura. Com uma base de testes unitários sólida e confiável, você pode implementar os outros tipos de testes com mais facilidade e segurança, garantindo ainda mais que sua aplicação sobreviverá a qualquer alteração no código.
+Testes unitários são mais "baratos", crie o máximo possível desse tipo e garanta uma boa cobertura. Com uma base de testes unitários sólida e confiável, você pode implementar os outros tipos de testes com mais facilidade e segurança, garantindo ainda mais que sua aplicação sobreviverá a qualquer alteração no código.
 
 ## 2. Organização e Padronização de Código
 
@@ -38,11 +38,17 @@ Uma mesa de trabalho desorganizada pode diminuir a produtividade de quem a utili
 
 ![mesa organizada](/img/posts/organized-desk.jpg)
 
-Com o código acontece o mesmo, código desorganizado é sinônimo de falta de cuidado da equipe que trabalha nele e trabalhar com um código assim é improdutivo.
+Com software acontece o mesmo, código desorganizado é sinônimo de falta de cuidado da equipe que trabalha nele e trabalhar com um código assim é muito ruim.
 
-Implemente um *code style* e procure validar de maneira automatizada que as regras que foram definidas estão sendo seguidas. Com a automatização desse proceso, você terá liberdade para que quando estiver revisando um código você possa focar sua análise em outros pontos, como por exemplo, regras de negócio e segurança.
+Implemente um *code style* e procure validar de maneira automatizada se as regras que foram definidas estão sendo seguidas. *Code style* é um conjunto de regras que guia como os desenvolvedores devem escrever o código.
 
-Siga as regras e convenções das linguagens e frameworks que você utiliza. Procure manter cada coisa em seu devido lugar, para que outra pessoa ou até mesmo você futuramente entenda de maneira mais rápida e clara de como as coisas funcionam no código.
+A maioria das linguagens de programação já tem *code styles* e ferramentas que garantem que o código siga as regras definidas. Atualmente tenho trabalhado muito com JavaScript, nossa equipe utiliza o [ESLint](http://eslint.org/){:target="_blank"} como ferramenta para checar o estilo do nosso código.
+
+Com o ESLint é possível criar suas regras de estilo de código ou até mesmo utilizar um conjunto de regras criado por outras pessoas. Nossa equipe, por exemplo, tem utilizado o estilo de código definido pelo pessoal do [Airbnb](https://www.npmjs.com/package/eslint-config-airbnb){:target="_blank"}.
+
+A aplicação de um *code style* traz a sensação de que o código foi escrito por uma pessoa apenas independentemente do número de integrantes da equipe.
+
+Validar de maneira automatizada se o *code style* está sendo seguido é muito importante, dessa forma você e sua equipe terão liberdade para quando estiver revisando um código você possa focar sua análise em outros pontos, como por exemplo, regras de negócio e segurança.
 
 ## 3. Sempre Arrume a Casa
 
@@ -50,15 +56,15 @@ Você já ouviu falar da teoria das janelas quebradas? Essa é uma teoria de pol
 
 ![janelas quebradas](/img/posts/break-windows.jpg)
 
-Essa teoria pode ser aplicada em várias áreas, como por exemplo, no desenvolvimento de software. Um projeto onde pequenas partes de código não seguem os padrões e boas práticas definidas pela equipe e pelo mercado em que ninguém se atenta a corrigí-las tende a se tornar um sistema legado com o passar do tempo.
+Essa teoria pode ser aplicada em várias áreas, como por exemplo, no desenvolvimento de software. Um projeto onde pequenas partes de código não seguem os padrões e boas práticas definidas pela equipe ou pelo mercado e que ninguém se atenta a corrigí-las tende a se tornar um sistema legado com o passar do tempo.
 
 Quando você encontrar algum papel jogado no chão, tente pegar e jogar no lixo, assim você ajuda a manter o local sempre limpo. Na sua casa, ao ver algo fora do lugar, procure deixá-lo no seu devido local, dessa forma você ajuda a manter sua casa organizada.
 
 ![armário organizado](/img/posts/home-organization.jpg)
 
-Faça o mesmo com o código em que você está trabalhando, é normal que com o passar do tempo features e/ou correções sejam feitas com pressa por conta do prazo, mas sempre que possível procure fazer pequenas correções no código em que você está trabalhando.
+Faça o mesmo com o código em que você está trabalhando, é normal que com o passar do tempo features ou correções sejam feitas com pressa por conta do prazo, mas sempre que possível procure fazer pequenas correções no código em que você está trabalhando.
 
-Quando você encontrar algo que não é mais utilizado, remová-o e quando encontrar aquela função ou váriavel que não está no lugar correto, procure deixá-la no local certo, dessa forma o código tende a sempre se manter organizado.
+Quando você encontrar algo que não é mais utilizado remova aquela parte, quando encontrar aquela função ou váriavel que não está no lugar correto, mude para o local certo, dessa forma o código tende a sempre se manter organizado.
 
 ## 4. Não tenha medo de refatoração
 
@@ -66,7 +72,7 @@ Quando você encontrar algo que não é mais utilizado, remová-o e quando encon
 
 Ao longo do projeto, determinadas funcionalidades do projeto podem sofrer mudanças, bibliotecas podem ser atualizadas e bugs podem ser encontrados, acarretando assim possíveis refatorações. Mas refatoração de código não precisa ser sinônimo de dor de cabeça.
 
-Se você seguir as três dicas acima você e sua equipe terão um código testado, organizado e padronizado, trazendo dessa maneira mais segurança quando precisar realizar alguma possível refatoração.
+Se seguir as três dicas acima você e sua equipe terão um código testado, organizado e padronizado, trazendo dessa maneira mais segurança quando precisar realizar alguma refatoração.
 
 > *"Refatoração é uma técnica controlada para melhorar o design de uma base de código existente."* - Martin Fowler
 

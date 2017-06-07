@@ -33,6 +33,7 @@ avatar: "/img/header.jpg"
 # then specify the following parameter
 # title-img: /path/to/image
 
+future: true
 # --- Footer options --- #
 
 # Change all these values or delete the ones you don't want.
