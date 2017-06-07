@@ -12,7 +12,7 @@ Começo de um novo projeto, você e sua equipe ficam animados, decidem quais tec
 
 Mas nem tudo são flores, algumas coisas começam a dar errado, o prazo vai acabando, a qualidade do projeto cai cada vez mais e com isso a equipe vai perdendo a motivação.
 
-Se isso já aconteceu ou acontece com você, fique tranquilo, não é a único que passa por isso, mas saiba que você pode fazer algumas coisas para que isso não aconteca mais.
+Se isso já aconteceu ou acontece com você, fique tranquilo, não é o único que passa por isso, mas saiba que você pode fazer algumas coisas para que isso não aconteca mais.
 
 Qualidade é um termo subjetivo, mas quando falamos sobre desenvolvimento de software podemos dizer que um código com alta qualidade é um código organizado, testado e de fácil manutenção.
 
