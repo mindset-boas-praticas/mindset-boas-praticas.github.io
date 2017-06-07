@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "5 dicas essenciais para não tornar seu sistema legado e manter a qualidade de software alta"
-meta-title: "Qualidade de Software: 5 dicas essenciais para não tornar seu sistema legado e manter a qualidade de software alta"
+title: "5 dicas essenciais para manter a qualidade de software e evitar que sua aplicação se torne um sistema legado"
+meta-title: "Qualidade de Software: 5 dicas essenciais para manter a qualidade de software e evitar que sua aplicação se torne um sistema legado"
 meta-description: "Código ruim pode diminuir a produtividade, veja algumas dicas para que manter o código da sua aplicação organizado e a qualidade de software sempre alta"
 bigimg: /img/posts/qualidade-de-software.jpg
 author: Vítor Nogueira
