@@ -43,7 +43,7 @@ Um estrutura bem comum é a MVC onde os arquivos são separados em Models, Views
         ...
 ```
 
-O problema dessa estrutura é que ela tende ao infinito, quanto mais a aplicação cresce, mais os arquivos relacionados ficam longe um dos outros.
+O problema dessa estrutura é que a quantidade de arquivos dentro das pastas model, controller e view tende ao infinito, quanto mais a aplicação cresce, mais os arquivos relacionados ficam longe um dos outros.
 
 Por exemplo, há uma relação óbvia entre todos os arquivos que lidam com o produto, que são a controller, a model e a view **product**. Sendo assim, quando eu precisar fazer qualquer alteração na entidade produto eu vou ter que abrir cada uma destas pastas e procurar pelo arquivo product.xx
 
@@ -141,7 +141,7 @@ O que eu estou confrontando aqui é a estrutura de pastas sugerida como padrão 
 
 No começo do projeto, nós achamos que o nosso software será sempre pequeno, que nunca vai crescer e por isso não damos a devida atenção a uma organização de pastas escalável a longo prazo.
 
-Alguns podem dizer que eu não sei usar o editor de texto direito, que basta pressionar **[Ctrl]** + **[P]** e digitar o nome do arquivo, mas eu acredito que tenho uma solução melhor que essa, com menos ações e mais eficaz.
+Alguns podem dizer que eu não sei usar o editor de texto direito, que basta pressionar **[Ctrl]** + **[P]** e digitar o nome do arquivo, mas existe uma solução melhor que essa, com menos ações e mais eficaz.
 
 ### A solução para a má organização do código-fonte
 
