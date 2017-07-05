@@ -256,7 +256,7 @@ const testControllerHolder = {
     testControllerHolder.testController = testController;
 
     if (testControllerHolder.getResolver) {
-      testControllerHolder.getResolver(t);
+      testControllerHolder.getResolver(testController);
     }
 
     return new Promise(function (resolve) {
