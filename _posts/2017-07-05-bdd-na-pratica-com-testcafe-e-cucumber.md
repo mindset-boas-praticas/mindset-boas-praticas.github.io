@@ -11,9 +11,9 @@ code-hightlight: true
 
 Se você acompanha nosso blog, sabe que já falamos várias vezes sobre a importância de testes de software para manter a qualidade do código. O assunto de hoje é: BDD, o que é e como podemos escrever testes para validar o comportamento do software de uma maneira simples.
 
-Venho estudando sobre o assunto a algum tempo e também venho pesquisando e testando algumas ferramentas para testes end-to-end automatizados. Resolvi compartilhar um pouco da experiência com você.
+Venho estudando sobre o assunto há algum tempo e também pesquisando e testando algumas ferramentas para testes end-to-end automatizados. Resolvi compartilhar um pouco da experiência com você.
 
-No post de hoje não foquei muito na teoria, se você quiser saber mais sobre BDD e testes end-to-end, deixei algumas referências no final do post que podem te ajudar a se aprofundar mais no assunto.
+No post de hoje não foquei muito na teoria, se quiser saber mais sobre BDD e testes end-to-end, deixei algumas referências no final do post que podem te ajudar a se aprofundar mais no assunto.
 
 ## O que é BDD?
 
@@ -43,11 +43,11 @@ Funcionalidade: Título
     Então esperamos outro resultado
 ```
 
-Na primeira linha você escreve um título pequeno descrevendo a funcionalidade, logo depois você escreve a narrativa da funcionalidade, que como no exemplo acima pode seguir o padrão de uma *User Story*, e em seguida você descreve os cenários dos testes.
+Na primeira linha você escreve um título pequeno descrevendo a funcionalidade, logo depois a narrativa da funcionalidade, que como no exemplo acima pode seguir o padrão de uma *User Story*, e em seguida os cenários dos testes.
 
 ## E como fica isso na prática?
 
-Dentre as tecnologias que testei a que mais me chamou a atenção foi o [TestCafe](https://devexpress.github.io/testcafe/){:target="_blank"}. Ela é uma solução para testes de aplicações web feita node.js e o que mais me chamou a atenção foi o fato dela ser simples, não é preciso criar arquivos de configuração e nem instalar plugins para rodar os testes em navegadores, com poucos comandos já é possível rodar os testes.
+Dentre as tecnologias que testei a que mais me chamou a atenção foi o [TestCafe](https://devexpress.github.io/testcafe/){:target="_blank"}. Ela é uma solução para testes de aplicações web feita em NodeJS e o que mais me chamou a atenção foi o fato dela ser simples, não é preciso criar arquivos de configuração e nem instalar plugins para rodar os testes em navegadores, com poucos comandos já é possível rodar os testes.
 
 > "**Automated browser testing for the modern web development stack.**"
 >
@@ -59,7 +59,7 @@ Dentre as tecnologias que testei a que mais me chamou a atenção foi o [TestCaf
 
 ### Criando o package.json e instalando o testcafe
 
-Para começar nosso projeto vamos criar uma pasta e nosso `package.json`, nesse arquivo você vai ter várias informações sobre o projeto e é nele que você salvar quais as dependências utilizadas. Você pode saber mais sobre esse arquivo [nessa documentação](https://docs.npmjs.com/files/package.json){:target="_blank"}.
+Para começar nosso projeto vamos criar uma pasta e nosso `package.json`, esse arquivo terá várias informações sobre o projeto e é nele que vamos salvar as dependências utilizadas. Para saber mais sobre esse arquivo, acesse a [documentação no site do npm](https://docs.npmjs.com/files/package.json){:target="_blank"}.
 
 ```shell
 mkdir bdd-example
@@ -115,11 +115,11 @@ O módulo testcafe foi adicionado na lista de dependências e a versão que foi 
 Duas observações:
 
 - Se você está utilizando a versão do npm maior ou igual a 5 não é necessário passar o `--save` como parametro, apenas rodando `npm install testcafe` instala o módulo e o adiciona na lista de dependências;
-- Você também pode utilizar o yarn para gerenciar os módulos do seu projeto, com ele basta apenas digitar `yarn add testcafe` que o módulo e instalado e adicionado a lista de dependências. Se você quiser saber mais sobre o yarn, no final do post deixei alguns links como referencia.
+- Você também pode utilizar o yarn para gerenciar os módulos do seu projeto, com ele basta apenas digitar `yarn add testcafe` que o módulo e instalado e adicionado a lista de dependências. Se você quiser saber mais sobre o yarn, no final do post deixei alguns links como referência.
 
 ### Criando e rodando os testes
 
-Observação: os exemplos a seguir utilizam algumas features das novas versões do JavaScript, caso você tenha dificuldades no final do post você vai encontrar alguns links para saber mais sobre essas novas features.
+Observação: os exemplos a seguir utilizam algumas features das novas versões do JavaScript, caso você tenha dificuldades nas referências você pode encontrar alguns links para saber mais sobre essas novas features.
 
 Crie uma pasta chamada `tests` dentro do projeto e um arquivo chamado `example.js`:
 
@@ -419,6 +419,8 @@ E novamente rode o comando `npm test` no seu terminal, se tudo estiver correto n
 ![resultado do comando cucumber no terminal](img/posts/cucumber-command-result.jpg)
 
 E é isso :)
+
+Você pode encontrar todo o código utilizado no exemplo nesse repositório do github: [https://github.com/mindsetboaspraticas/bdd-example](https://github.com/mindsetboaspraticas/bdd-example).
 
 Existem várias outras ferramentas que para rodar testes automatizados, inclusive em outras linguagens, mas das ferramentas em JavaScript que eu testei essa fui a que eu tive menos trabalho para rodar os testes automatizados, com apenas 3 arquivos foi possível integrar o cucumber com o testcafe.
 
