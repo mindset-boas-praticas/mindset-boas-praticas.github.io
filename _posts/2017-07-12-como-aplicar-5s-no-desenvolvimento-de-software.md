@@ -2,11 +2,10 @@
 layout: post
 title: "Como aplicar 5S no desenvolvimento de software"
 meta-title: "Como aplicar 5S no desenvolvimento de software"
-meta-description: ""
+meta-description: "O 5S é utilizado em diversas áreas para padronizar, organizar e aumentar a qualidade do trabalho, mas será que ele pode ser aplicado no desenvolvimento de software?"
 bigimg: /img/posts/5s.jpg
 author: Thomas Alvarenga
 date: 2017-07-12 08:00:00
-code-hightlight: true
 ---
 
 > "A melhor maneira de nos prepararmos para o futuro é concentrar toda a imaginação e entusiasmo na execução perfeita do trabalho de hoje." - Dale Carnegie
@@ -15,7 +14,7 @@ Você já ouviu falar de 5S? Já pensou em praticar 5S no desenvolvimento de sof
 
 Pra quem não tem a mínima ideia do que eu estou falando, o 5S surgiu nas empresas do Japão, durante a reconstrução do país depois da segunda guerra mundial.
 
-O papel do 5S é cuidar da base, facilitando o aprendizado e prática de conceitos e ferramentas para a qualidade. Isso inclui cuidar dos ambientes, equipamentos, materiais, métodos, medidas, e, especialmente, pessoas.
+O papel do 5S é cuidar da base, facilitando o aprendizado e prática de conceitos e ferramentas para a qualidade. Isso inclui cuidar dos ambientes, equipamentos, materiais, métodos, medidas, e especialmente, pessoas.
 
 Esses princípios são muito utilizados hoje em dia em empresas multinacionais para organização dos escritórios, oficinas e até o chão de fábrica.
 
@@ -37,7 +36,7 @@ Vamos responder essas perguntas em cada item desse post, bora lá?
 
 > Separar o que é útil do que não é. Melhorar o uso do que é útil.
 
-Quantas vezes você criou uma classe, método ou variável, depois viu que não precisava mais daquilo mas não apagou do código-fonte? E quando você instala uma dependência no projeto e acaba não utilizando ela.
+Quantas vezes você criou uma classe, método ou variável e depois viu que não precisava mais daquilo mas não apagou do código-fonte? E quando você instala uma dependência no projeto e acaba não utilizando ela.
 
 Essas partes do código não utilizadas vão contra o Senso de Utilização(Seiri) pois são inúteis para a aplicação. Isso prejudica a organização do projeto e deve ser excluido para evitar distrações desnecessárias.
 
@@ -59,7 +58,7 @@ No seu código existe funções fazendo mais de uma operação? Se sim, provavel
 
 Isso é ruim pois começam a existir muitas dependências entre as partes do código e comportamentos inesperados ao chamar uma simples função.
 
-Crie funções pequenas, separe as que estiverem grandes, deixe cada parte do projeto focado em apenas uma implementação, se começar a crescer quebre em mais partes, é melhor ter muitos arquivos pequenos do que um gigante.
+Crie funções pequenas, separe as que estiverem grandes, deixe cada parte do projeto focada em apenas uma implementação. Se começar a crescer quebre em mais partes, é melhor ter muitos arquivos pequenos do que um gigante.
 
 ## 3S - Seisou - Senso de Limpeza
 
