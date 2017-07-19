@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Experiências e aprendizados adquiridos com a utilização de um novo framework"
-meta-title: "Experiências e aprendizados adquiridos com a utilização de um novo framework"
+title: "4 aprendizados adquiridos com a utilização de um novo framework"
+meta-title: "4 aprendizados adquiridos com a utilização de um novo framework"
 meta-description: "Algumas experiências e aprendizados que eu e minha equipe tivemos com a adoção de um novo framework"
 bigimg: /img/posts/hard-work-with-a-book-picjumbo-com.jpg
 author: Vitor Nogueira
@@ -10,7 +10,11 @@ date: 2017-07-12 08:00:00
 
 Esse post surgiu de uma sugestão do [hugocarmona182](https://github.com/hugocarmona182){:target="_blank"} no nosso repositório do github.
 
-Na [issue](https://github.com/mindsetboaspraticas/mindsetboaspraticas.github.io/issues/18) ele pede para falarmos sobre experiências e aprendizados que tivemos com o uso do Vue.js, mas os itens a seguir podem ser aproveitados para utilização de qualquer outra tecnologia.
+Na [issue](https://github.com/mindsetboaspraticas/mindsetboaspraticas.github.io/issues/18) ele pede para falarmos sobre experiências e aprendizados que tivemos com o uso do Vue.js (citamos o Vue.js no post: [Porque aprender novas tecnologias não te faz um programador melhor](http://mindsetboaspraticas.com.br/porque-aprender-novas-tecnologias-nao-te-faz-um-programador-melhor){:target="_blank"}).
+
+Iniciamos um projeto no segundo semestre de 2016, e entre as tecnologias escolhidas estava o [Vue.js](https://vuejs.org/){:target="_blank"}, um [framework progressivo para criação de interfaces](https://vuejs.org/v2/guide/){:target="_blank"}. Hoje em dia temos vários projetos utilizando o Vue.js e estamos gostando muito do resultado, ele é muito produtivo, tem uma curva de aprendizado baixa e o [ecossistema](https://github.com/vuejs/awesome-vue){:target="_blank"} dele é [bem grande](https://curated.vuejs.org/){:target="_blank"}.
+
+Apesar dos itens a seguir estarem ligados ao Vue.js eles podem ser aproveitados para adoção de qualquer outra tecnologia.
 
 ## Tenha uma boa base
 
@@ -42,6 +46,24 @@ Porém verificamos que as issues no repositório do github tinham um bom suporte
 
 Hoje em dia já não temos mais problemas com assuntos mais avançados, encontramos respostas para nossas dúvidas mais facilmente e para quem tem dificuldade no inglês, já tem muito conteúdo em português.
 
+---
+
+Eu sempre estou ligado nas novidades do mundo da programação e sempre que possível estou aprendendo algo novo, porém é importante um objetivo claro antes de escolher algo para estudar, assim a chance de manter o foco e a motivação é maior.
+
+Ao escolher uma nova tecnologia vários pontos devem ser levados em consideração, cada projeto e cada equipe é diferente um do outro, o contexto em que cada um está inserido também evolui, entender bem o problema a ser resolvido e testar a solução antes de colocar a ideia em prática ajuda muito no sucesso do projeto.
+
+Uma ferramenta que usamos recentemente e tem nos ajudado nas escolhas de tecnologias, definição de equipes e definição de ações para aumentar o conhecimento ou até mesmo desenvolver novas habilidades é a **matriz de competências**, uma técnica que aprendemos em um curso sobre Management 3.0.
+
+![Desenvolvendo competências na visão da gestão 3.0](/img/posts/desenvolvendo-competencias-na-visao-da-gestao-30.jpg)
+
+Na primeira coluna ficam as competências que no contexto de desenvolvimento de software poderiam ser, por exemplo, tecnologias e metodologias. Na primeira linha ficam os nomes dos integrantes da equipe. Na segunda coluna informamos a quantidade de pessoas com os niveis desejados para cada competência, os níves de competência são os seguintes: *Expert* (Eu posso ensinar), *Praticante* (Eu posso fazer) e *Iniciante* (Eu preciso de ajuda para fazer).
+
+Após definidas as competências e níveis de competências desejadas cada pessoa informa o seu nível em relação a cada competência. Com a matriz pronta fica muito claro os pontos em que cada pessoa pode melhorar e como está o nível da equipe em relação as competências necessárias.
+
 Você tem algum assunto para sugerir? Abra uma [issue no nosso github](https://github.com/mindsetboaspraticas/mindsetboaspraticas.github.io/issues/new){:target="_blank"} :)
 
 Até o próximo post!
+
+Referências:
+
+- [Desenvolvendo Competências na visão da Gestão 3.0](https://pt.slideshare.net/andrefaria/desenvolvendo-competencias){:target="_blank"}
