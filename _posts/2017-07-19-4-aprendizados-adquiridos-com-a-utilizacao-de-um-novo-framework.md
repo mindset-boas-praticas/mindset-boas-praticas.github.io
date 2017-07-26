@@ -5,7 +5,7 @@ meta-title: "4 aprendizados adquiridos com a utilização de um novo framework"
 meta-description: "Algumas experiências e aprendizados que eu e minha equipe tivemos com a adoção de um novo framework"
 bigimg: /img/posts/hard-work-with-a-book-picjumbo-com.jpg
 author: Vitor Nogueira
-date: 2017-07-12 08:00:00
+date: 2017-07-19 08:00:00
 ---
 
 Esse post surgiu de uma sugestão do [hugocarmona182](https://github.com/hugocarmona182){:target="_blank"} no nosso repositório do github.
