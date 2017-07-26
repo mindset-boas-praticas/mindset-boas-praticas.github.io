@@ -194,7 +194,7 @@ Só falta configurar um comando para rodar a API independente dos testes unitár
 
 ```json
 "scripts": {
-  "start": "node server.js",
+  "start": "node server",
   "test": "jest"
 },
 ```
@@ -311,7 +311,7 @@ Tudo certo, funcionando, mas acho que faltou eu falar sobre como forçar os dese
 ```json
 "scripts": {
   "test": "jest --coverage",
-  "start": "node server.js"
+  "start": "node server"
 },
 "jest": {
   "coverageThreshold": {
