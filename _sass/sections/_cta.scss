@@ -1,19 +1,47 @@
-.cta-mail-banner {
+.cta-banner {
   padding: 10px;
 
   background: #f0f0f0;
   border-radius: 5px;
   border: 1px solid #e6e6e6;
+
+  &.cta-banner_live {
+    text-align: center;
+
+    .cta-text {
+      font-size: 24px;
+    }
+
+    .cta-button {
+      margin-top: 15px;
+      padding: 20px 40px;
+
+      font-size: 24px;
+
+      &:hover,
+      &:focus {
+        color: #fff;
+      }
+    }
+  }
 }
 
-.cta-mail-text {
+.cta-text {
   margin: 0 0 15px;
 
   font-size: 16px;
   text-align: center;
 }
 
-.cta-mail-field {
+.cta-title {
+  margin: 15px 0;
+
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #ef5350;
+}
+
+.cta-field {
   width: 100%;
   padding: 9px 10px;
 
@@ -21,7 +49,7 @@
   border-radius: 5px;
 }
 
-.cta-mail-button {
+.cta-button {
   display: block;
   width: 100%;
   margin-top: 10px;
@@ -35,25 +63,25 @@
 }
 
 @media only screen and (min-width: 680px) {
-  .cta-mail-banner {
+  .cta-banner {
     padding: 20px;
   }
 
-  .cta-mail-text {
+  .cta-text {
     font-size: 18px;
   }
 
-  .cta-mail-form {
+  .cta-form {
     display: flex;
     justify-content: center;
   }
 
-  .cta-mail-field {
+  .cta-field {
     width: 400px;
     margin-right: 15px;
   }
 
-  .cta-mail-button {
+  .cta-button {
     display: inline-block;
     width: auto;
     margin-top: 0;
