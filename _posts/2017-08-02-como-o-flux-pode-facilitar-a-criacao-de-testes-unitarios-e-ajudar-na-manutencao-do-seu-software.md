@@ -75,8 +75,6 @@ No repositório do Vuex tem vários exemplos de implementação, falando nisso, 
 
 Existem várias bibliotecas que facilitam a implementação do Flux em aplicações front-end, umas das mais famosas é o [Redux](http://redux.js.org/){:target="_blank"}. Nos projetos que estou trabalhando no momento tenho utilizado o [Vuex](https://github.com/vuejs/vuex), ela é a biblioteca utilizada pelo Vue.js para gerenciar o estado da aplicação.
 
-No repositório do Vuex tem vários exemplos de implementação, falando nisso, nosso amigo Thomás (que também escreve aqui no blog) abriu um [PR atualizando um dos exemplos](https://github.com/vuejs/vuex/pull/890){:target="_blank"}, da uma conferida lá depois ;)
-
 ### Como o Vuex funciona
 
 Peguei a imagem abaixo na [documentação do Vuex](https://vuex.vuejs.org/en/intro.html){:target="_blank"}, você pode entender facilmente como funciona o conceito do fluxo unidirecional:
