@@ -16,7 +16,7 @@ Se você está na área de software há algum tempo com certeza já passou por e
 
 Isso acontece porque nós esperamos que um documento gigante vai ser o suficiente para gerar uma comunicação entre os desenvolvedores e os clientes, mas isso acaba nunca acontecendo.
 
-É exatamente esse problema que as User Stories se propõe a resolver, mas antes precisamos definir exatamente o que é isso?
+É exatamente esse problema que as User Stories se propõe a resolver, mas antes precisamos definir exatamente o que é isso
 
 ## O que são User Stories?
 
@@ -46,7 +46,7 @@ As User Stories são pequenas de propósito para que a equipe converse mais e es
 
 Além disso, não há termos técnicos, portanto gerentes, programadores, testers e clientes conseguem "falar a mesma língua" quando conversam sobre o projeto.
 
-Quando começamos a escrever User Stories na empresa que trabalho, percebemos muita diferença na comunicação principalmente com os testers, pois elem não eram desenvolvedores e antes tinhamos muitos termos técnicos escritos nas tarefas.
+Quando começamos a escrever User Stories na empresa que trabalho, percebemos muita diferença na comunicação principalmente com os testers, pois eles não eram desenvolvedores e antes tinhamos muitos termos técnicos escritos nas tarefas.
 
 Se as pessoas reclamam de falta de comunicação nos projetos que você trabalha tente usar Histórias de Usuários ao invés de criar mais documentos detalhados.
 
