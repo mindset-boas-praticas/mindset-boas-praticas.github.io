@@ -3,7 +3,7 @@ layout: post
 title: "Porque escrever User Stories para definir as funcionalidades do seu software?"
 meta-title: "Porque escrever User Stories para definir as funcionalidades do seu software?"
 meta-description: "Você já teve problemas ao escrever os requisitos do software? Quando outra pessoa vai ler parece que sempre falta algum detalhe ou não era aquilo que o usuário queria de verdade? Se você sofre com esses problemas esse post é pra você!"
-bigimg: /img/posts/user-stories.png
+bigimg: /img/posts/user-stories.jpg
 author: Thomas Alvarenga
 date: 2017-08-09 08:00:00
 ---
@@ -73,7 +73,7 @@ A segunda parte da Story mostra o que o usuário espera fazer no sistema para at
 
 Por fim, a terceira parte é o que ele realmente quer, a principal meta, o porque ele está utilizando o software.
 
-![Histórias de Usuário](/img/posts/user-stories.png)
+![Histórias de Usuário](/img/posts/user-stories.jpg)
 
 Consegue perceber agora a diferença entre apenas *"Cadastrar produto no banco de dados"* e sua respectiva User Story?
 
