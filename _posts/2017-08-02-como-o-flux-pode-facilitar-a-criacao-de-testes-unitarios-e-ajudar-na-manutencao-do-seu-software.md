@@ -3,7 +3,7 @@ layout: post
 title: "Como o Flux pode facilitar a criação de testes unitários e ajudar na manutenção do seu software"
 meta-title: "Como o Flux pode facilitar a criação de testes unitários e ajudar na manutenção do seu software"
 meta-description: "Saiba como aplicar o principio de responsabilidade única utilizando o Flux e facilite a manutenção do seu código"
-bigimg: /img/posts/flux-diagram-white-background.png
+bigimg: /img/posts/flux-diagram-white-background.jpg
 author: Vitor Nogueira
 date: 2017-08-02 08:00:00
 code-hightlight: true
@@ -71,7 +71,7 @@ O Flux é uma arquitetura criada pelo Facebook para criar aplicações front-end
 
 No repositório do Vuex tem vários exemplos de implementação, falando nisso, nosso amigo Thomas (que também escreve aqui no blog) abriu um [PR atualizando um dos exemplos](https://github.com/vuejs/vuex/pull/890){:target="_blank"}, da uma conferida lá depois ;)
 
-![diagrama que mostra como o flux trabalha](/img/posts/flux-diagram-white-background.png)
+![diagrama que mostra como o flux trabalha](/img/posts/flux-diagram-white-background.jpg)
 
 Existem várias bibliotecas que facilitam a implementação do Flux em aplicações front-end, umas das mais famosas é o [Redux](http://redux.js.org/){:target="_blank"}. Nos projetos que estou trabalhando no momento tenho utilizado o [Vuex](https://github.com/vuejs/vuex), ela é a biblioteca utilizada pelo Vue.js para gerenciar o estado da aplicação.
 
@@ -79,7 +79,7 @@ Existem várias bibliotecas que facilitam a implementação do Flux em aplicaç�
 
 Peguei a imagem abaixo na [documentação do Vuex](https://vuex.vuejs.org/en/intro.html){:target="_blank"}, você pode entender facilmente como funciona o conceito do fluxo unidirecional:
 
-![vuex](/img/posts/vuex-flow.png)
+![vuex](/img/posts/vuex-flow.jpg)
 
 A **View**, que no View é representado por um componente, dispara uma **Action** que faz uma alteração no **State**, o Vue.js por sua natureza reativa *reage* a essa alteração no estado e atualiza a **View** (componente).
 
@@ -90,7 +90,7 @@ Quando trabalhamos com vuex organizamos o gerenciamento dos dados utilizados na 
 - `mutations.js`: aqui é onde podemos definir o estado inicial da store e criamos as funções que vão alterar o estado da *store*;
 - `types.js`: nesse arquivo escrevemos os nomes das *mutations*;
 
-![vuex](/img/posts/vuex.png)
+![vuex](/img/posts/vuex.jpg)
 
 ## Na prática
 
